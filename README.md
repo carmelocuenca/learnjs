@@ -1,6 +1,14 @@
 
 ## Change Log
 
+### Changed to work in [Cloud9](http://c9.io)
+  * Modificado el fichero `sspa` para que utilice la variable de entorno $PORT en lugar del puerto fijo `9292`
+  * La url de la apliación es  http://[workspace-name]-[username].c9users.io/:8080
+  * La gema [guard-livereload](https://github.com/guard/guard-livereload)
+    cambiada para utilizar  `browerSync`de acuerdo con [https://c9.io/blog/browsersync-gulp-js-cloud9/].
+    Conveniente haber instalado el plugin LiveReload en el navegador.
+  * Uso de `npm` para instalar `gulp` y `browerSync` para el entono de desarrollo
+  
 ### Beta 3 Changes
 
   * Compensating for AWSCLI timing issues when creating roles
