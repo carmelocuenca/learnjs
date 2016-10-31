@@ -8,7 +8,7 @@
     cambiada para utilizar  `browerSync`de acuerdo con [https://c9.io/blog/browsersync-gulp-js-cloud9/].
     Conveniente haber instalado el plugin LiveReload en el navegador.
   * Uso de `npm` para instalar `gulp` y `browerSync` para el entono de desarrollo
-  
+  * ````gulp bower-sync``` para mantener la sincronia
 ### Beta 3 Changes
 
   * Compensating for AWSCLI timing issues when creating roles
